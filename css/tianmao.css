@@ -7,9 +7,13 @@
     url('https://at.alicdn.com/t/font_561407_1y4twvjumpe97ldi.svg#iconfont') format('svg');
 }
 #nav{
-    width: 1230px;
+    width: 100%;
     height: 32px;
     background-color: #ccc;
+}
+.daohang_nav{
+    width: 1230px;
+    height: 32px;
     margin:0 auto;
 }
 .loginfo{
@@ -18,7 +22,7 @@
     float: left;
     color: #999;
 }
-.login:hover,.reg:hover,.item:hover .tianmao{
+.login:hover,.reg:hover,.item:hover .tianmao,.loginfo em:hover{
     cursor: pointer;
     color: red;
 }
@@ -318,7 +322,7 @@
     height: 35px;
     background-color: #333;
     position: absolute;
-    left:-100px;
+    left:-150px;
     bottom: 0;
     display: none;
     text-align: center;
